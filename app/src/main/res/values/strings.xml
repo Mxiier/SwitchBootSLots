@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">启动控制</string>
+    <string name="app_description">这个应用适用于支持无缝更新功能的64位系统的设备\n
+        用于切换设备的活动槽位,请确保将切换到的目标槽位上拥有有效的操作系统.\n
+        通常每个槽位都拥有7次的重试次数,在启动失败时这个数字会递减,当消耗完后引导加载程序会自动切换到另一个槽位.\n
+        如果您的设备意外停留在无限启动状态,请长按"音量下键+电源键"至少5秒强制重启设备到fastboot模式下,使用命令"fastboot set_active a"手动切换启动槽位.
+    </string>
+    <string name="string_slot_name_a">A</string>
+    <string name="string_slot_name_b">B</string>
+    <string name="string_slot_num_title">编号: %1$d</string>
+    <string name="string_slot_suffix_title">后缀: %1$s</string>
+    <string name="string_slot_bootable_title">启动: %1$s</string>
+
+    <string name="string_slots_number">槽位数量: %1$d</string>
+    <string name="string_button_switch_slot_text">切换槽位</string>
+    <string name="string_boot_hal_version">接口信息: %1$s</string>
+    <string name="string_text_help_link">帮助</string>
+    <string name="string_text_note_warn">标记 * 号为当前活动槽位</string>
+    <string name="string_text_note_need_reboot">活动槽位已更改,需要重启设备生效!</string>
+
+    <!-- superkey输入对话框 -->
+    <string name="dialog_super_key_title">请输入超级密钥</string>
+    <string name="dialog_super_key_msg">切换槽位需要获取设备的Root权限\n
+    请在下面输入您的超级密钥</string>
+    <string name="dialog_super_key_edit">输入超级密钥</string>
+    <string name="dialog_super_key_btn">确认</string>
+    <string name="dialog_super_key_error">超级密钥错误!</string>
+
+    <!-- 进度条对话框 -->
+    <string name="dialog_msg_switching_slot">正在切换槽位...</string>
+    <string name="dialog_msg_rebooting">正在重启设备...</string>
+
+    <!-- 不支持的设备 -->
+    <string name="dialog_error_unsupport_device_title">不支持的设备</string>
+    <string name="dialog_error_unsupport_device_msg">当前设备不支持这个应用\n使用这个应用的设备必须支持64位和无缝更新功能\n点击帮助了解更多信息.</string>
+
+    <!-- 复制文件失败对话框 -->
+    <string name="dialog_error_copy_file_failed_title">初始化失败</string>
+    <string name="dialog_error_copy_file_failed_msg">当前应用程序的依赖 bootctl 二进制文件初始化失败\n请尝试清除应用程序数据和缓存后重试!</string>
+
+    <string name="dialog_error_bootctl_invalid_title">环境异常</string>
+    <string name="dialog_error_bootctl_invalid_msg">当前应用的bootctl二进制文件不可用或无效\n请尝试清除应用程序数据和缓存后重试!</string>
+
+    <string name="dialog_reboot_title">重启设备</string>
+    <string name="dialog_reboot_msg">当前设备的活动槽位已改变!\n您需要重启设备才能让这个更改生效.</string>
+
+    <string name="dialog_switch_slot_title">切换活动槽位</string>
+    <string name="dialog_switch_slot_msg">确认要切换活动槽位到 %1$s 槽位\n请确保这个槽位上拥有有效的操作系统,否则将会导致您的设备无法启动.\n完成操作后将在下一次启动时生效.</string>
+
+</resources>

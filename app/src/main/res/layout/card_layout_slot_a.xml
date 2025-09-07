@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/text_slot_name_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/string_slot_name_a"
+        />
+
+    <TextView
+        android:id="@+id/text_slot_number_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"
+        android:text="@string/string_slot_num_title"
+        />
+    
+    <TextView
+        android:id="@+id/text_slot_suffix_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"
+        android:text="@string/string_slot_suffix_title"
+        />
+
+    <TextView
+        android:id="@+id/text_slot_bootable_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"
+        android:text="@string/string_slot_bootable_title"
+        />
+
+    
+
+</LinearLayout>
